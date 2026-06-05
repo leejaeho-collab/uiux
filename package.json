@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node src/mood.test.js",
+    "test": "node src/mood.test.js && node src/scroll.test.js",
     "start": "python -m http.server 4173"
   }
 }
