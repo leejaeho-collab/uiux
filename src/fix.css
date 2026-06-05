@@ -1,0 +1,15 @@
+.history-row {
+  width: 100%;
+  min-height: 74px;
+  margin-top: 8px;
+  padding: 9px;
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  color: #fffaf3;
+  background: rgba(255,255,255,.08);
+  text-align: left;
+}
